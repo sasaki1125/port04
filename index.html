@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="jquery.pagepiling.css"> 	
+  <script src="//cdn.jsdelivr.net/npm/gsap@3.7.0/dist/gsap.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gsap@3.7.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/jquery.pagepiling.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.transit.js"></script>
+  <script type="text/javascript" src="jquery.textFx.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>portfolio4</title>
+</head>
+
+
+<body>
+
+  <header>
+    <nav class="headA">
+      <ul>
+        <li><a href="/">Top</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="mainMove">
+    <div class="container">
+      <div class="moveBox">
+        <video autoplay playinline muted >
+          <source src="./img/main.mp4">
+        </video>
+      </div>
+      <img src="./img/main1.png" alt="#" class="moveA">
+
+    </div>
+  </section>
+  <div id="about"></div>
+  
+  <section class="conA">
+    <div class="container">
+      <ul class="contents">
+        <li class="animationTarget">
+          <img src="./img/about1.png" alt="#" class="imgTop">
+          <div class="contentsText">
+            <h2>ABOUT</h2>
+            <p>name:YusukeSasaki</p>
+          </div>
+        </li>
+        <li class="animationTarget">
+          <img src="img/about2.png" alt="#" class="imgTop">
+          <div class="contentsText">
+            <h2>History</h2>
+            <p>これまではマーケティング業務を行ってきました。<br>
+            主に店舗運営、販促企画、PRです。
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+  <div id="work"></div>
+
+  <div class="wrapper">
+
+    <div class="conB">
+      <div class="container">
+        <video autoplay playinline muted loop>
+          <source src="./img/work.mp4">
+        </video>
+        <img src="./img/work1.png" alt="" class="workImg1">
+        <img src="./img/work2.png" alt="" class="workImg2">
+        <img src="./img/work4.png" alt="" class="workImg4">
+      </div>
+    </div>
+
+
+    <div class="conC">
+      <div class="container">
+        <div class="conTitle">
+          <h2>Ruby on Rails</h2>
+          <p>フリマアプリ/チャットアプリ開発</p>
+        </div>
+        <div class="imgBox1">
+          <img src="./img/work5.PNG" alt="" class="workImgAll">
+          <img src="./img/work6.PNG" alt="" class="workImgAll">
+          <img src="./img/work7.PNG" alt="" class="workImgAll">
+        </div>
+        <img src="./img/work8.png" alt="" class="workImg8">
+      </div>
+    </div>
+
+    <div class="conD">
+      <div class="container">
+        <div class="conTitle">
+          <h2>HTML CSS JavaScript</h2>
+          <p>ホームページ制作</p>
+        </div>
+        <div class="imgBox1">
+          <img src="./img/work10.PNG" alt="" class="workImgAll">
+          <img src="./img/work11.png" alt="" class="workImgAll">
+          <img src="./img/work12.PNG" alt="" class="workImgAll">
+        </div>
+        <img src="./img/work13.png" alt="" class="workImg13">
+
+      </div>
+    </div>
+  
+  </div>
+
+  <section class="conE">
+    <div class="container">
+      <div class="conTitle1">
+        <h2>アプリの紹介</h2>
+        <p>タッチをするとページに飛びます</p>
+        <p>＊Railsで開発したものに関してはベーシック認証を行っているためPASSWDが要求されます</p>
+        <p>ユーザー名:  admin</p>
+        <p>PASSWD:  2222</p>
+      </div>
+
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a target="_parent" href="https://furima-33075.herokuapp.com/"><img src="./img/work5.PNG" alt="次へ" class="swiperImg1" ></a></div>
+          <div class="swiper-slide"><a target="_parent" href="https://message-app.herokuapp.com/"><img src="./img/work6.PNG" alt="次へ" class="swiperImg1" ></a></div>
+          <div class="swiper-slide"><a target="_parent" href="https://protospace-33075.herokuapp.com/"><img src="./img/work7.PNG" alt="次へ" class="swiperImg1" ></a></div>
+          <div class="swiper-slide"><a target="_parent" href="https://sasaki1125.github.io/hair2021/"><img src="./img/work10.PNG" alt="次へ" class="swiperImg1" ></a></div>
+          <div class="swiper-slide"><a target="_parent" href="https://sasaki1125.github.io/portfolio01/"><img src="./img/work11.png" alt="次へ" class="swiperImg1" ></a></div>
+          <div class="swiper-slide"><a target="_parent" href="https://sasaki1125.github.io/FELIZ2021/"><img src="./img/work12.PNG" alt="次へ" class="swiperImg1" ></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="conF">
+    <div class="container">
+      <div class="conTitle">
+        <h2>Portfolioを通じて技術を進化させている</h2>
+      </div>
+      
+      <div class="confBox">
+        <a href="https://sasaki1125.github.io/portfolio2021/"><img src="./img/work14.png" alt="#" class="workImgall confimg1"></a>
+        <a href="https://sasakiyusuke1.github.io/portfolio"><img src="./img/work15.png" alt="#" class="workImgall confimg2"></a>
+        <a href="https://sasaki1125.github.io/portfolio01/"><img src="./img/work16.png" alt="#" class="workImgall confimg3"></a>
+        <a href="/"><img src="./img/work17.png" alt="#" class="workImgall confimg4"></a>
+      </div>
+      <img src="./img/work9.png" alt="" class="workImg9">
+    </div>
+  </section>
+
+  <div id="contact"></div>
+
+  <section class="contact">
+    <div class="container">
+      <div class="contactTitle">
+        <h2>CONTACT</h2>
+      </div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj2ulW_llmRX_xIfWQgpGeICmaBZsaYxdxmAPMZJlGuBVBqA/viewform?usp=sf_link"><img src="./img/contact.png" alt="#" class="contactImg"></a>
+    </div>
+  </section>
+
+
+
+  <script src="./swiper-bundle.min copy.js" defer></script>
+  <script src="./script.js" defer></script>
+</body>
+</html>
